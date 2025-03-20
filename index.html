@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Locais - Batman API</title>
+</head>
+<body>
+    <header>
+        
+        <nav>
+            <img src="./" alt="The Batman">
+            <a href="index.html">Buscar locais</a>
+            <a href="characters.html">Características</a>
+            <a href="storylines.html">Histórias</a>
+        </nav>
+    </header>
+    <main>
+        <div class="search-container">
+            <h2>Qual local deseja descobrir os principais acontecimentos?</h2>
+            <p>(busque pelo nome)</p>
+            <input type="text" id="searchInput" placeholder="Exemplo: Gotham City, Arkham Asylum...">
+            <button id="searchButton">Buscar</button>
+            <button id="randomButton">Aleatório</button>
+        </div>
+        <ul id="locationsList"></ul>
+    </main>
+</body>
+</html>
